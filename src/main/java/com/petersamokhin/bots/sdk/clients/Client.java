@@ -32,7 +32,7 @@ public abstract class Client {
      */
     private String accessToken;
     private Integer id;
-    private static API api;
+    private API api;
     private LongPoll longPoll = null;
 
     public CopyOnWriteArrayList<Command> commands = new CopyOnWriteArrayList<>();
